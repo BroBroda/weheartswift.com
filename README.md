@@ -1,5 +1,5 @@
 # weheartswift.com
-//CHAPTER1_FIRST STEPS
+//CHAPTER2_CONDITIONALS
 //: Playground
 
 import UIKit
