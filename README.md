@@ -77,9 +77,64 @@ if !(age5 >= 13 && age5 <= 19) {
 }
 
 //2.1 Max_Print the largest number
-var a = 11
+var a = 111
 var b = 22
 
+if a > b {
+    print("The lasrgest number is \(a)")
+} else {
+    print("The lasrgest number is \(b)")
+}
+
+//2.2 Even or odd
+var number = 1
+if number % 2 == 0 {
+    print("even")
+} else {
+    print("odd")
+}
+
+//2.3 Divisibility (=podzielność)
+var c = 17
+var d = 3
+if c % d == 0 {
+    print("divisible")
+} else {
+    print("not divisible")
+}
+
+//2.4 You are given three variables a, b and c. Check if at least two variables have the same value. If that is true print At least two variables have the same value otherwise print All the values are different.
+var e = 0
+var f = 23
+var g = 23
+
+if e == f || e == g || f == g {
+    print("At least two variables have the same value")
+} else {
+        print("All the values are different")
+}
+
+//2.5 Breakfast
+/*You are working on a smart-fridge. The smart-fridge knows how old the eggs and bacon in it are. You know that eggs spoil after 3 weeks (21 days) and bacon after one week (7 days).
+Given baconAge and eggsAge(in days) determine if you can cook bacon and eggs or what ingredients you need to throw out.
+If you can cook bacon and eggs print you can cook bacon and eggs.
+If you need to throw out any ingredients for each one print a line with the text throw out ingredient (throw out bacon or throw out eggs) in any order.
+*/
+var baconAge = 7 // the bacon is 6 days old
+var eggsAge = 33 // eggs are 12 days old
+if baconAge >= 7 {
+    print("Throw out bacon")
+    if eggsAge >= 21 {
+        print("Throw out eggs")
+    }
+} else {
+    print("Cook bacon and eggs")
+}
+
+//2.6 Leap year
+//You are given a year, determine if it’s a leap year. A leap year is a year containing an extra day. It has 366 daysinstead of the normal 365 days. The extra day is added in February, which has 29 days instead of the normal 28 days. Leap years occur every 4 years. 2012 was a leap year and 2016 will also be a leap year. The above rule is valid except that every 100 years special rules apply. Years that are divisible by 100 are not leap years if they are not also divisible by 400. For example 1900 was not a leap year, but 2000 was. Print Leap year! or Not a leap year! depending on the case.
+
+let year = 2014
 
 
 
